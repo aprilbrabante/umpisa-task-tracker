@@ -64,6 +64,7 @@ This application allows users to:
 
 # Project Structure
 
+```text
 client/
 ├── src/
 │   ├── components/
@@ -79,6 +80,7 @@ server/
 ├── routes/
 ├── auth.js
 └── index.js
+```
 
 --------------------------------------------------
 
@@ -185,19 +187,23 @@ http://localhost:5173
 
 ## User Routes
 
-POST   /users/register         Register user
-POST   /users/login            Login user
-GET    /users/details          Get user profile
-PATCH  /users/update-password  Update password
+```text
+POST    /users/register          Register user
+POST    /users/login             Login user
+GET     /users/details           Get user profile
+PATCH   /users/update-password   Update password
+```
 
---------------------------------------------------
+---
 
 ## Task Routes
 
-GET     /tasks        Get all user tasks
-POST    /tasks        Create task
-PATCH   /tasks/:id    Update task
-DELETE  /tasks/:id    Delete task
+```text
+GET      /tasks        Get all user tasks
+POST     /tasks        Create task
+PATCH    /tasks/:id    Update task
+DELETE   /tasks/:id    Delete task
+```
 
 --------------------------------------------------
 
