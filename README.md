@@ -210,9 +210,15 @@ DELETE   /tasks/:id    Delete task
 
 # Running Tests
 
-## Frontend Tests
+## Frontend Unit Tests
 
+Run the following commands:
+
+```bash
+cd client
+npm install
 npm run test
+```
 
 --------------------------------------------------
 
