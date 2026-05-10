@@ -21,16 +21,17 @@ This application allows users to:
 - React Router DOM
 - Bootstrap 5
 - Axios
-- Context API
 - Vite
 
 ## Backend
 - Node.js
 - Express.js
-- MongoDB Atlas
-- Mongoose
 - JWT Authentication
 - bcryptjs
+
+## Database
+- MongoDB Atlas
+- Mongoose
 
 --------------------------------------------------
 
